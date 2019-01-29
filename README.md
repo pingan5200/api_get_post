@@ -1,7 +1,9 @@
-<!-- pip install djangorestframework -->
-<!-- pip install requests -->
+pip install djangorestframework
+
+pip install requests
+
 ## 视图函数（根据id get数据）
-<!-- cmd终端get -->
+cmd终端get
 In [37]: import requests
 
 In [38]: url = 'http://127.0.0.1:8000'
@@ -13,7 +15,8 @@ In [40]: r.json()
 Out[40]: [{'id': 1, 'name': 'ipad', 'weight': '20', 'size': '10', 'type': 1}]
 
 ## 视图类（根据分页 get数据）
-<!-- cmd终端get -->
+cmd终端get
+
 In [37]: import requests
 
 In [38]: url = 'http://127.0.0.1:8000'
@@ -27,7 +30,8 @@ Out[40]:
 [{'id': 1, 'name': 'ipad', 'weight': '20', 'size': '10', 'type': 1},
  {'id': 2, 'name': '华为', 'weight': '10', 'size': '5', 'type': 1}]
 
-<!-- cmd终端post -->
+cmd终端post
+
 In [37]: import requests
 
 In [38]: url = 'http://127.0.0.1:8000'
