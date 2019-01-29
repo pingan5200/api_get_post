@@ -1,6 +1,6 @@
-pip install djangorestframework
-pip install requests
-# 视图函数（根据id get数据）
+<!-- pip install djangorestframework -->
+<!-- pip install requests -->
+## 视图函数（根据id get数据）
 <!-- cmd终端get -->
 In [37]: import requests
 
@@ -11,7 +11,7 @@ In [39]: r = requests.get(url + '/1')
 In [40]: r.json()
 Out[40]: [{'id': 1, 'name': 'ipad', 'weight': '20', 'size': '10', 'type': 1}]
 
-# 视图类（根据分页 get数据）
+## 视图类（根据分页 get数据）
 <!-- cmd终端get -->
 In [37]: import requests
 
