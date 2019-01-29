@@ -4,6 +4,7 @@ pip install requests
 
 ## 视图函数（根据id get数据）
 cmd终端get
+
 In [37]: import requests
 
 In [38]: url = 'http://127.0.0.1:8000'
